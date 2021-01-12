@@ -1,6 +1,6 @@
 class User():
     "registered users info"
-    def __init__(self, first_name, last_name, age, login_attempts=1):
+    def __init__(self, first_name, last_name, age, login_attempts=0):
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
@@ -13,22 +13,12 @@ class User():
     def greeting_user(self):
         print (f'Hello, mister or missis {self.first_name} {self.last_name}')
 
-    def increment_login_attempts(self):
-        self.login_attempts += 1
+    def increment_login_attempts(self, increment=1):
+        self.login_attempts += increment
 
     def reset_login_attempts(self):
         self.login_attempts = 0
 
-id1 = User('Stan', 'Smith', 45)
 
-id1.describe_user()
-id1.greeting_user()
 
-id1.increment_login_attempts()
-id1.describe_user()
-id1.increment_login_attempts()
-id1.describe_user()
-id1.reset_login_attempts()
-id1.describe_user()    
 
-    

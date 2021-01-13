@@ -1,0 +1,5 @@
+fopewjkfwpeofwe
+ewfk;ewkfwepofkw
+fioewjfoiwejfioewjfw
+cd e:/workspace/study-python/operation_with_files
+"C:/Program Files (x86)/Python38-32/python.exe" e:/workspace/study-python/operation_with_files/test.py

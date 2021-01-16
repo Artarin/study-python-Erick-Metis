@@ -1,7 +1,7 @@
 from users import User
 
 class Privileges():
-    "describe  privileges for user with admin rights"
+    "describe  privileges for user with admin  rights"
     def __init__(self):
         self.privileges = ['adding messages granted', 'erasing message granted', 'bannig users granted']
 
